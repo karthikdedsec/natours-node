@@ -25,6 +25,7 @@ mongoose
 const tours = JSON.parse(
   fs.readFileSync(`${__dirname}/tours-simple.json`, 'utf-8'),
 );
+console.log(tours);
 
 //import data into database
 
